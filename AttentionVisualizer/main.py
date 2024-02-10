@@ -25,7 +25,7 @@ class AttentionVisualizer():
     def __init__(self):
         super().__init__()
         
-        self.model_name = "roberta-base"
+        self.model_name = "yuchuantian/AIGC_detector_env2"
         self.model      = AutoModel.from_pretrained(self.model_name)
         self.tokenizer  = AutoTokenizer.from_pretrained(self.model_name)
         
